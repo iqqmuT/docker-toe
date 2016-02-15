@@ -2,9 +2,9 @@
 
 Dockerfile for TOE.
 
- * Based on Debian 7
- * Mapnik 2.0.0
- * OpenStreetMap data for Isle of Man
+ * Based on Debian Testing
+ * Mapnik 3.0.9 (forked to https://github.com/iqqmut/mapnik)
+ * OpenStreetMap data for Isle of Man stored in PostgeSQL 9.5
 
 ### Running
 
