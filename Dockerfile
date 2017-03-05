@@ -76,7 +76,7 @@ RUN sed -i -e "s/shared_buffers = 32MB/shared_buffers = 128MB/g" /etc/postgresql
 # https://switch2osm.org/serving-tiles/manually-building-a-tile-server-12-04/
 RUN mkdir /opt/osm && \
     cd /opt/osm && \
-    svn co http://svn.openstreetmap.org/applications/rendering/mapnik mapnik-style && \
+    svn co https://svn.openstreetmap.org/applications/rendering/mapnik mapnik-style && \
     cd mapnik-style && \
     ./get-coastlines.sh && \
     cd inc && \
